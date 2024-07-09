@@ -1,41 +1,20 @@
-Catálogo de Libros
-Este proyecto implementa un Catálogo de Libros que permite a los usuarios buscar libros por título utilizando una API específica, gestionar la información de los libros encontrados y explorar detalles relacionados con los autores.
+# ForoHub
 
-Funcionalidades
-Búsqueda de Libros por Título: Los usuarios pueden buscar libros ingresando el título y reciben información detallada sobre el libro encontrado.
+ForoHub es una aplicación de gestión de tópicos diseñada para facilitar la creación, visualización, actualización y eliminación de tópicos en un entorno educativo.
 
-Visualización de Libros Buscados: Se pueden ver todos los libros que han sido buscados durante la sesión.
+## Funcionalidades
 
-Lista de Autores: Permite ver los autores de los libros buscados hasta el momento.
+- **Creación de Tópicos:** Los usuarios pueden crear nuevos tópicos proporcionando un título, mensaje, autor y curso asociado.
+- **Visualización de Tópicos:** Los tópicos existentes se pueden ver junto con detalles como título, mensaje, fecha de creación, estado, autor y curso.
+- **Actualización de Tópicos:** Permite actualizar el contenido de un tópico existente.
+- **Eliminación de Tópicos:** Los usuarios con permisos pueden eliminar tópicos existentes basados en su identificador único.
 
-Listado de Autores Vivos en un Año Específico: Los usuarios pueden ingresar un año y obtener una lista de autores que están vivos en ese año, basado en los libros buscados.
+## Instalación y Uso
 
-Tecnologías Utilizadas
-Java
-Spring Boot
-HttpClient para la gestión de solicitudes HTTP
-Jackson para el manejo de JSON
-Consola para la interacción textual con el usuario
-Uso
-Configuración del Proyecto:
+### Requisitos
 
-Clona el repositorio en tu máquina local.
-Ejecución del Proyecto:
+- Java 11 o superior
+- Maven 3.6.3 o superior
+- Git
 
-Abre el proyecto en tu entorno de desarrollo (por ejemplo, IntelliJ IDEA).
-Asegúrate de tener configuradas las dependencias necesarias en el archivo pom.xml.
-Ejecuta la clase principal BookCatalogApplication que contiene el método main().
-Interacción con el Usuario:
-
-Sigue las instrucciones presentadas en la consola para interactuar con el Catálogo de Libros.
-Selecciona las opciones numéricas para realizar acciones como buscar libros, ver autores, etc.
-Contribución
-Si deseas contribuir a este proyecto, sigue estos pasos:
-
-Haz un fork del repositorio.
-Crea una nueva rama (git checkout -b feature/nueva-caracteristica).
-Realiza tus cambios y commit (git commit -am 'Agrega nueva característica').
-Push a la rama (git push origin feature/nueva-caracteristica).
-Crea un nuevo Pull Request.
-Autor
-LizAraLeonGarcia
+- LizAraLeonGarcia
